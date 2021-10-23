@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: white;
+}
+
+header {
+    background: rgba(78, 189, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78, 189, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 65px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dream {
+    width: 562px;
+    margin-top: 152px;
+}
+
+.title {
+    font-size: 37px;
+    font-family: Ubuntu, sans-serif;
+}
+
+h1 span {
+    font-size: 57px;
+}
+
+.text_dream {
+    font-size: 16px;
+    width: 414px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px 0;
+}
+
+.Travel {
+    margin-top: 40px;
+}
+
+.btn {
+    text-decoration: none;
+    background: #ffd500;
+    color: black;
+    display: block;
+    width: 222px;
+    padding: 18px 0;
+    text-align: center;
+    transition: all 0.5s ease;
+    font-family: Montserrat, sans-serif;
+}
+
+.btn:hover {
+    background: #ecc609;
+}
+
+h2 {
+    color: black;
+    font-family: Ubuntu, bold;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 102px;
+    padding-bottom: 67px;
+}
+
+h3 {
+    font-size: 19px;
+    font-family: Ubuntu;
+    color: black;
+    text-align: center;
+    padding-bottom: 18px;
+}
+
+.text_travel {
+    color: black;
+    text-align: center;
+}
+
+.Futures {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 124px;
+}
+
+.travel_block {
+    width: 290px;
+    background: url(../img/photo1.jpg) no-repeat center top;
+    padding-top: 70px;
+}
+
+.travel_photo2 {
+    background: url(../img/photo2.jpg) no-repeat center top;
+}
+
+.travel_photo3 {
+    background: url(../img/photo3.jpg) no-repeat center top;
+}
+
+.container2 {
+    background: #eaf3f8;
+}
+
+.input {
+    width: 342px;
+    height: 47px;
+    border: 1px solid #bcbcbc;
+    padding-left: 30px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn_form {
+    text-decoration: none;
+    background: #ffd500;
+    color: black;
+    display: block;
+    width: 343px;
+    padding: 18px 0;
+    text-align: center;
+    transition: all 0.5s ease;
+    font-family: Montserrat, sans-serif;
+    cursor: pointer;
+    margin-bottom: 100px;
+    border: 0;
+}
+.btn_form:hover{
+    background: #ecc609;
+}
+footer{
+    background: #004c7c;
+}
+.footer_text{
+    font-size: 14px;
+    font-family: 'Open Sans';
+    text-align: center;
+    padding: 58px 0;
+    letter-spacing: .8px;
+}
